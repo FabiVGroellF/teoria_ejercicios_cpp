@@ -1,0 +1,20 @@
+1. Crear una función que devuelva una lista conteniendo la unión de una pila, una cola y un vector (1,5 puntos)
+
+2. Se tiene un vector de Matriculas (codigo de curso, cantidad de alumnos, monto pagado)
+y una lista con las nuevas reservas (codigo de curso, monto pagado). 
+Actualizar el vector con los contenidos de la lista, considerando que por cada reserva 
+se aumenta en 1 la cantidad de alumnos. (2,5 puntos)
+
+3. Era uno de esos ejercicios que te dan dos piezas de código y tenes que escribir lo que muestran por pantalla. 
+El primero agarraba una matriz, la transponía y la mostraba por consola, 
+y el segundo era una función que hacía un factorial, pero el caso 0 en vez de devolver 1 devolvía 0, 
+así que la función siempre retornaba 0. (4 puntos regalados)
+
+4. VoF:
+El vector es la mejor estructura para ordenar un archivo. (1 punto)
+FALSO: no se puede decir que estructura es mejor ya que siempre va a depender del archivo a manejar.
+Si se agregan y eleminan cosas muy seguido, es mejor usar estructuras dinamicas, 
+pero si se hace accesos aleatorios seguido, es mejor un vector.
+
+El corte de control se encarga de unir dos archivos con todos sus registros. (1 punto)
+FALSO: eso lo hace el apareo. El corte de control se encarga de ordenar archivos cuyos datos están agrupados.
