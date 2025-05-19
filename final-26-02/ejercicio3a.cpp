@@ -16,7 +16,7 @@ int main() {
     p[2] = *(p + 1) + x;
 
     for (int i = 0; i < 3; i++) {
-        cout << *(p + 1) << " ";
+        cout << *(p + 1) << " ";   // Output: 30 30 30
     }
 
     delete []p;
